@@ -89,7 +89,7 @@ async function analyzeWithAI() {
   document.getElementById('loadingIndicator').classList.remove('hidden');
 
   try {
-    const res = await fetch("https://your-backend-url/analyze", { // <--- REPLACE THIS
+    const res = await fetch("/.netlify/functions/analyze", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ data: input })
