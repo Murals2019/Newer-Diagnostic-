@@ -1,7 +1,7 @@
 {
   "name": "ai-diagnostic-reporter",
   "version": "1.0.0",
-  "description": "",
+  "description": "AI-powered diagnostic analysis tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.6.7"
   }
 }
